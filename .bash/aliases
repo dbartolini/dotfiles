@@ -1,0 +1,6 @@
+alias ls='ls --color=auto --group-directories-first'
+alias gs='git status'
+alias gd='git diff'
+alias gc='git commit'
+alias gp='git pull'
+alias gpom='git push origin master'
