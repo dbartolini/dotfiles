@@ -48,7 +48,7 @@ set list listchars=tab:\›\ ,trail:-,extends:>,precedes:<,eol:¬
 
 nmap <C-l> :bnext<CR>
 nmap <C-h> :bprevious<CR>
-imap <C-l> :bnext<CR> 
+imap <C-l> :bnext<CR>
 imap <C-h> :bprevious<CR>
 
 imap <leader>' ''<ESC>i
@@ -65,8 +65,3 @@ iabbr flase false
 set laststatus=2
 let g:airline#extensions#tabline#enabled=1
 let g:airline_powerline_fonts = 1
-
-" NERDTree
-autocmd StdinReadPre * let s:std_in=1
-autocmd VimEnter * if argc() == 0 && !exists("s:std_in") | NERDTree | endif
-
