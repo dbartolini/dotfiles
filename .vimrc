@@ -43,6 +43,9 @@ set smarttab
 set hlsearch
 set novisualbell
 set noerrorbells
+set nolist
+set undofile
+set undodir=~/.vim/undo
 
 set list listchars=tab:\›\ ,trail:-,extends:>,precedes:<,eol:¬
 
