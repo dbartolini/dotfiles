@@ -13,3 +13,9 @@
 [submodule ".vim/bundle/vim-multiple-cursors"]
 	path = .vim/bundle/vim-multiple-cursors
 	url = https://github.com/terryma/vim-multiple-cursors.git
+[submodule ".vim/bundle/semantic-highlight.vim"]
+	path = .vim/bundle/semantic-highlight.vim
+	url = https://github.com/jaxbot/semantic-highlight.vim.git
+[submodule ".vim/bundle/tabular"]
+	path = .vim/bundle/tabular
+	url = https://github.com/godlygeek/tabular
