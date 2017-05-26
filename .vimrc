@@ -41,6 +41,7 @@ set ignorecase
 set smartcase
 set smarttab
 set hlsearch
+set incsearch
 set novisualbell
 set noerrorbells
 set nolist
