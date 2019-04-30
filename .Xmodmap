@@ -1,0 +1,4 @@
+!CAPS LOCK -> ESC
+keycode 66 = Escape
+!INS -> *disabled*
+keycode 118 =

@@ -13,6 +13,4 @@ fi
 
 PS1='[\u@\h \W]\$ '
 
-xmodmap -e 'clear Lock' -e 'keycode 0x42 = Escape'
-
 export MALLOC_PERTURB_=$(($RANDOM % 255 + 1))
