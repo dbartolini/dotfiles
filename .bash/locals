@@ -1,0 +1,2 @@
+export ANDROID_NDK_ROOT=~/Android/Sdk/ndk/21.0.6113669
+export ANDROID_NDK_ABI=23
