@@ -1,4 +1,5 @@
 alias ls='ls --color=auto --group-directories-first'
+alias grep='grep --color'
 
 # Git
 alias gs='git status'
@@ -7,3 +8,4 @@ alias gc='git commit'
 alias gp='git pull'
 alias ga='git add -p'
 alias gpom='git push origin master'
+alias gco='git checkout -p'

@@ -14,3 +14,5 @@ fi
 PS1='[\u@\h \W]\$ '
 
 export MALLOC_PERTURB_=$(($RANDOM % 255 + 1))
+
+HISTCONTROL="ignorespace"
