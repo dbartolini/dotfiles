@@ -15,4 +15,6 @@ PS1='[\u@\h \W]\$ '
 
 export MALLOC_PERTURB_=$(($RANDOM % 255 + 1))
 
+PATH=$PATH:~/.local/bin
+PATH=$PATH:~/.npm-global/bin
 HISTCONTROL="ignorespace"
