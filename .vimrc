@@ -45,8 +45,7 @@ set incsearch
 set novisualbell
 set noerrorbells
 set nolist
-
-set list listchars=tab:\›\ ,trail:-,extends:>,precedes:<,eol:¬
+set tw=0
 
 nmap <C-l> :bnext<CR>
 nmap <C-h> :bprevious<CR>
@@ -62,6 +61,9 @@ nmap <leader>l :set list!<CR>
 
 iabbr ture true
 iabbr flase false
+iabbr compnenet_type component_type
+iabbr zero zero
+iabbr soruce source
 
 " airline
 set laststatus=2
