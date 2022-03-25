@@ -19,3 +19,6 @@
 [submodule ".vim/bundle/vim-easy-align"]
 	path = .vim/bundle/vim-easy-align
 	url = https://github.com/junegunn/vim-easy-align
+[submodule ".vim/bundle/vim-gitgutter"]
+	path = .vim/bundle/vim-gitgutter
+	url = https://github.com/airblade/vim-gitgutter
