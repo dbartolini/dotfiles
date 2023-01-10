@@ -73,3 +73,6 @@ let g:airline_powerline_fonts = 1
 
 " ctrlp
 set wildignore+=*.a,*.o,*.lib,*.exe,*.so,*.dll,*.d,*/build/*
+
+" EditorConfig
+let g:EditorConfig_preserve_formatoptions=1
