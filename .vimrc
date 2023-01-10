@@ -63,8 +63,12 @@ nmap <leader>l :set list!<CR>
 iabbr ture true
 iabbr flase false
 iabbr compnenet_type component_type
-iabbr zero zero
+iabbr zeor zero
 iabbr soruce source
+iabbr modle model
+
+iabbr aan &&
+iabbr oor \|\|
 
 " airline
 set laststatus=2
