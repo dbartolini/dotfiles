@@ -46,6 +46,7 @@ set novisualbell
 set noerrorbells
 set nolist
 set tw=0
+set formatoptions-=t " Do not insert line breaks at textwidth.
 
 nmap <C-l> :bnext<CR>
 nmap <C-h> :bprevious<CR>
@@ -69,3 +70,6 @@ iabbr soruce source
 set laststatus=2
 let g:airline#extensions#tabline#enabled=1
 let g:airline_powerline_fonts = 1
+
+" ctrlp
+set wildignore+=*.a,*.o,*.lib,*.exe,*.so,*.dll,*.d,*/build/*
