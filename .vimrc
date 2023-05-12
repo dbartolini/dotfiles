@@ -72,6 +72,7 @@ iabbr modle model
 iabbr sytem system
 iabbr resouce resource
 iabbr resouce_path resource_path
+iabbr StrinView StringView
 
 iabbr aan &&
 iabbr oor \|\|
