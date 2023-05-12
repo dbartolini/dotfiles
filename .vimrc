@@ -60,12 +60,18 @@ imap <leader>[ []<ESC>i
 
 nmap <leader>l :set list!<CR>
 
+" https://stackoverflow.com/questions/4298910/vim-close-buffer-but-not-split-window
+nmap ,d :b#<bar>bd#<CR>
+
 iabbr ture true
 iabbr flase false
 iabbr compnenet_type component_type
 iabbr zeor zero
 iabbr soruce source
 iabbr modle model
+iabbr sytem system
+iabbr resouce resource
+iabbr resouce_path resource_path
 
 iabbr aan &&
 iabbr oor \|\|
